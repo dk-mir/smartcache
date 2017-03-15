@@ -1,10 +1,10 @@
-#In-memory cache
+# In-memory cache
 
-###Prerequisites
+### Prerequisites
 - Java 8 is installed
 
-###Run tests
+### Run tests
 `mvnw test`
 
-The cache doesn't implements any kind of invalidation, so when all memory is allocated it
-stops to accept new items.
+The cache doesn't implement any kind of invalidation, so when all memory is allocated it
+stops accepting new items.
